@@ -1,0 +1,23 @@
+{
+  "name": "hotel-template",
+  "version": "1.0.0",
+  "description": "hotel-template is a repository for test Gatsby.js for create static page for hotel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ToldoDesign128@github.com/ToldoDesign128/hotel-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToldoDesign128/hotel-template/issues"
+  },
+  "homepage": "https://github.com/ToldoDesign128/hotel-template#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49"
+  }
+}
