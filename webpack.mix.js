@@ -9,15 +9,6 @@ mix.webpackConfig({
                 use: [
                     {
                         loader: "sass-loader",
-                        options: {
-                            additionalData: [
-                                "$env: " + process.env.NODE_ENV + ";",
-                                "$debug-links: " + !!process.env.DEBUG_LINKS + ";",
-                                (!!process.env.DEBUG_LINKS) 
-                                    ? '@import "martino-scss/global/debug";' 
-                                    : '',
-                            ].join('\n')
-                        },
                     },
                 ],
             },
@@ -26,7 +17,7 @@ mix.webpackConfig({
 })
 
 mix
-    .sass('assets/css/', '.css')
+    .sass('assets/scss/style.scss', '')
     .options({
         watchOptions: {
             ignored: /node_modules/
